@@ -1,0 +1,90 @@
+/* Estilos gerais para a estrutura da página */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Estilos do header */
+header {
+    background-color: #3b82f6;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+}
+
+header img {
+    max-height: 40px;
+}
+
+/* Estilos para o container principal */
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos do formulário do médico */
+.medico-form {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+}
+
+/* Estilos dos labels */
+label {
+    font-size: 1.1em;
+    color: #333;
+}
+
+/* Estilos dos campos de input */
+input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Estilos do botão */
+button {
+    padding: 10px 20px;
+    background-color: #3b82f6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Efeito de hover no botão */
+button:hover {
+    background-color: #1d6ecf;
+}
+
+/* Estilos para a lista de médicos */
+.lista-medicos {
+    margin-top: 20px;
+}
+
+/* Estilos do rodapé */
+footer {
+    text-align: center;
+    padding: 5px;
+    background-color: #3b82f6;
+    color: white;
+    font-size: 14px;
+    margin-top: auto;
+}
+
+footer img {
+    max-height: 30px;
+}

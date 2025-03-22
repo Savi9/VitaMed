@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prontuários</title>
+    <link rel="stylesheet" href="style-prontuarios.css">
+</head>
+<body>
+    <header>
+        <img src="/img/Logo.png" alt="Logo"> 
+        <h1>Gestor Hospitalar - Prontuários</h1>
+    </header>
+    
+    <main>
+        <section class="buscar-prontuario">
+            <h2>Buscar Prontuário</h2>
+            <form id="form-busca">
+                <input type="text" id="numero-prontuario" placeholder="Digite o número do prontuário" required>
+                <button type="submit">Buscar</button>
+            </form>
+        </section>
+
+        <section class="resultado-prontuario">
+            <h2>Prontuário:</h2>
+            <div id="prontuario-info" class="prontuario-info">
+                <p>Digite o número do prontuário para visualizar os dados.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <img src="img/Vitamed logo.png" alt="Logo">
+    </footer>
+
+    <!-- Vinculando o JavaScript ao HTML -->
+    <script src="js-prontuarios.js"></script>
+</body>
+</html>

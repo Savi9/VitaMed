@@ -1,0 +1,99 @@
+/* Reseta margens e define a altura da página */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Ajustes no header */
+header {
+    background-color: #3b82f6;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+}
+
+/* Logo dentro do header */
+header .logo {
+    max-height: 40px;
+    display: block;
+    margin: 0 auto 10px; /* Centraliza a logo */
+}
+
+/* Formulário de busca */
+.busca-exame {
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+/* Estilos para o título do formulário */
+h2 {
+    font-size: 1.4em;
+    color: #333;
+}
+
+/* Estilos para o formulário */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Estilos para o campo de texto de busca */
+input[type="text"] {
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Estilos para o botão */
+button {
+    padding: 10px 20px;
+    background-color: #3b82f6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Efeito de hover no botão */
+button:hover {
+    background-color: #1d6ecf;
+}
+
+/* Resultado do Exame */
+.resultado {
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    display: none;
+}
+
+/* Estilos para os parágrafos dentro do resultado */
+p {
+    font-size: 1em;
+    color: #333;
+    margin: 10px 0;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 5px;
+    background-color: #3b82f6;
+    color: white;
+    font-size: 14px;
+    margin-top: auto;
+}

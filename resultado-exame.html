@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultado do Exame</title>
+    <link rel="stylesheet" href="style-resultado.css">
+</head>
+<body>
+    <header>
+        <img src="/img/Logo.png" alt="Logo da Clínica" class="logo">
+        <h1>Resultado do Exame</h1>
+    </header>
+
+    <div class="container">
+        <!-- Formulário de busca -->
+        <div class="busca-exame">
+            <h2>Buscar Resultado</h2>
+            <form id="searchForm">
+                <label for="nome-paciente">Nome do Paciente:</label>
+                <input type="text" id="nome-paciente" name="nome-paciente" placeholder="Digite o nome do paciente" required>
+                <button type="submit">Buscar</button>
+            </form>
+        </div>
+
+        <!-- Resultado do Exame -->
+        <div id="resultado" class="resultado" style="display: none;">
+            <h2>Exame: Exame de Sangue</h2>
+            <p><strong>Nome do Paciente:</strong> <span id="paciente-nome">João Silva</span></p>
+            <p><strong>Data do Exame:</strong> 20/03/2025</p>
+            <p><strong>Resultado:</strong> Normal</p>
+            <p><strong>Observações:</strong> Não foram encontradas alterações nos parâmetros analisados.</p>
+            <button onclick="window.print()">Imprimir Resultado</button>
+        </div>
+    </div>
+
+    <footer>
+        <p>Se precisar de mais informações, entre em contato conosco.</p>
+    </footer>
+
+    <!-- Inclusão do arquivo JavaScript externo -->
+    <script src="script.js"></script>
+</body>
+</html>

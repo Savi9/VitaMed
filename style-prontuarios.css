@@ -1,0 +1,91 @@
+/* Reseta margens e define a altura da página */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Ajustes no header */
+header {
+    background-color: #3b82f6;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+}
+
+header img {
+    max-height: 40px;
+}
+
+/* Seção de busca */
+.buscar-prontuario {
+    text-align: center;
+    margin: 30px 0;
+}
+
+/* Estilos do formulário de busca */
+#form-busca {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+/* Estilos para o campo de número de prontuário */
+#numero-prontuario {
+    padding: 10px;
+    font-size: 16px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Estilos para o botão */
+button {
+    padding: 10px 20px;
+    background-color: #3b82f6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Efeito de hover no botão */
+button:hover {
+    background-color: #1d6ecf;
+}
+
+/* Resultado do prontuário */
+.resultado-prontuario {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+/* Estilos para a exibição das informações do prontuário */
+.prontuario-info {
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: white;
+    border-radius: 10px;
+    width: 50%;
+    text-align: left;
+}
+
+/* Estilos do rodapé */
+footer {
+    text-align: center;
+    padding: 5px;
+    background-color: #3b82f6;
+    color: white;
+    font-size: 14px;
+    margin-top: auto;
+}
+
+footer img {
+    max-height: 30px;
+}

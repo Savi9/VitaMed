@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agendamento de Exames</title>
+    <link rel="stylesheet" href="style-agendar.css">
+</head>
+<body>
+    <header>
+        <img src="/img/Logo.png" alt="Vitamed logo">
+        <h1>Agendar Exames</h1>
+    </header>
+    <div class="container">
+        <header>
+            <p>Escolha o exame, selecione a data e o horário que melhor se adequa a você e complete os dados abaixo.</p>
+        </header>
+
+        <form class="appointment-form">
+            <label for="exam">Exame:</label>
+            <select id="exam" name="exam">
+                <option value="sangue">Exame de sangue</option>
+                <option value="raio-x">Raio-X</option>
+                <option value="ultrassom">Ultrassom</option>
+                <option value="mamografia">Mamografia</option>
+            </select>
+
+            <label for="date">Data:</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="time">Horário:</label>
+            <input type="time" id="time" name="time" required>
+
+            <label for="name">Nome Completo:</label>
+            <input type="text" id="name" name="name" placeholder="Digite seu nome" required>
+
+            <label for="dob">Data de Nascimento:</label>
+            <input type="date" id="dob" name="dob" required>
+
+            <label for="contact">Telefone ou E-mail:</label>
+            <input type="text" id="contact" name="contact" placeholder="Digite seu telefone ou e-mail" required>
+
+            <button type="submit">Confirmar Agendamento</button>
+        </form>
+
+        <footer>
+            <p>Se tiver dúvidas, entre em contato conosco através do telefone (XX) XXXX-XXXX.</p>
+        </footer>
+    </div>
+</body>
+</html>
