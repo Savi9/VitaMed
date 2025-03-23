@@ -21,6 +21,27 @@ header {
 header img {
     height: 40px;
 }
+/* Estilos da lista de navegação */
+nav ul li {
+    display: flex;
+    margin-right: 20px;
+}
+
+/* Estilos para os links de navegação */
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background: #a00000;
+}
+
+/* Efeito de hover nos links de navegação */
+nav ul li a:hover {
+    background: #c0392b;
+}
+
 
 /* Estilos do container principal */
 .container {
